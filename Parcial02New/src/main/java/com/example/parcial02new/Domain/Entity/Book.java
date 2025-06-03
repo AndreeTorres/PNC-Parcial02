@@ -2,6 +2,7 @@ package com.example.parcial02new.Domain.Entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,6 +18,7 @@ public class Book {
     private Integer id;
 
     @Column
+    @Pattern(regexp = "[^0-9]*", message = "Field cannot contain numbers")
     private String title;
 
     @Column
