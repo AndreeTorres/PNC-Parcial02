@@ -8,11 +8,11 @@
         <version>3.5.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.torres</groupId>
-    <artifactId>parcial02</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>Parcial02New</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>parcial02</name>
-    <description>parcial02</description>
+    <name>Parcial02New</name>
+    <description>Parcial02New</description>
     <url/>
     <licenses>
         <license/>
